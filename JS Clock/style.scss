@@ -1,0 +1,41 @@
+/*Variables*/
+
+$base-color: #273746;
+$green: #58D68D;
+
+body{
+    background-color: black;
+    text-align: center;
+    color:white;
+    
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    
+    text-transform: uppercase;
+    text-align: center;
+}
+@mixin corners ($radius) {
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    border-radius: $radius; 
+    -khtml-border-radius: $radius; 
+    }
+
+.clock{
+    @include corners(15px);
+    color: $green;
+    padding: 100px 0 0;
+    
+    font: Helvetica;
+    font-size:150px;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+
+    position:relative;
+    background-color: $base-color;
+}

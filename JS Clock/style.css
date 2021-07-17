@@ -1,0 +1,28 @@
+/*Variables*/
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.clock {
+  border-radius: 15px;
+  -khtml-border-radius: 15px;
+  color: #58D68D;
+  padding: 100px 0 0;
+  font: Helvetica;
+  font-size: 150px;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  background-color: #273746;
+}
+/*# sourceMappingURL=style.css.map */
